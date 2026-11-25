@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": "What are your AI interests?"
+  },
+  {
+    "role": "assistant",
+    "content": "بالنسبة لي، الـ AI اللي بيفتش دماغي هو اللي بيجمع بين الـ theory والـ practice. يعني بحب أشتغل على:\n\n- **Generative AI** – خصوصًا الـ LLMs زي GPT‑4, LLaMA, Falcon… أستكشف الـ prompting، الـ few‑shot learning، وتوليد المحتوى المتخصص.  \n- **Retrieval‑Augmented Generation (RAG)** – بنية هتخلّي النموذج يطلع معلومات دقيقة من قاعدة بيانات أو vector store، وبحب أجرّب تحسين الـ retrieval strategies (BM25 vs. dense embeddings) والـ hybrid search.  \n- **AI Agents & Multi‑Agent Systems** – بناء agents بيقدروا يتكلموا مع بعض أو مع أدوات خارجية (tool calling, function calling) باستخدام LangChain/​LangGraph، وإدارة الذاكرة وحالات الـ state.  \n- **Agentic RAG architectures** – دمج الـ agents مع RAG عشان يقدروا يحددوا الـ source المناسب، يعيد‑rank النتائج، ويستدعي أدوات لوّن.  \n- **Fine‑tuning & PEFT** – LoRA, QLoRA, و‑PEFT عموماً، عشان أخصّص موديلات كبيرة على بيانات محددة أو domain‑specific tasks.  \n- **Vector databases & semantic search** – Pinecone, Qdrant, Milvus… وأحب أشتغل على hybrid retrieval + reranking + metadata filtering.  \n- **Observability & evaluation** – تتبع الـ prompts، logging، tracing (LangSmith, LangFuse)، وتحليل الـ metrics (hallucination rate, relevance, latency).  \n- **Human‑in‑the‑loop workflows** – إزاي ندمج feedback من المستخدمين في الـ loop عشان نحسّن الـ model باستمرار.  \n\nكمان بحب إني أدمج الـ backend (FastAPI, async) مع الـ AI، أعمل Docker containers، وأفكر في scalability والـ cost. كل ده بيخليني أشتغل على مشاريع زي research assistants، document‑analysis bots، أو financial analysis agents، اللي بيحتاجوا ربط الـ LLMs مع أدوات خارجية، قواعد بيانات، وواجهة سهلة للمستخدم."
+  },
+  {
+    "role": "user",
+    "content": "hi"
+  },
+  {
+    "role": "assistant",
+    "content": "أهلا! إزيك؟ في حاجة معينة تحب نتكلم فيها أو محتاج مساعدة في مشروع AI؟."
+  },
+  {
+    "role": "user",
+    "content": "no"
+  },
+  {
+    "role": "assistant",
+    "content": "تمام، لو احتجت أي حاجة أو عندك سؤال فـ AI أو أي مشروع، ابقى قولي. 😊"
+  }
+]
